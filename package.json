@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Modern light portfolio for David Vizena",
   "main": "index.js",
+  "homepage": "https://davidvizena.github.io/modern_vizena_portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
@@ -10,6 +11,8 @@
   "author": "David Vizena",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.16.3",
+    "gh-pages": "^1.2.0",
     "node-sass": "^4.9.2"
   }
 }
